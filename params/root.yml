@@ -1,0 +1,12 @@
+config:
+  auth_params: params/auth.yml
+  user_params: params/user.yml
+
+chromedriver: /Users/piyush/Downloads/chromedriver-mac-arm64/chromedriver
+
+urls:
+  login: "https://www.facebook.com"
+  search_prefix: "https://m.facebook.com/search/posts?q="
+  search_filter_postfix:
+    "&filters=eyJycF9jcmVhdGlvbl90aW1lOjAiOiJ7XCJuYW1lXCI6XCJjcmVhdGlvbl90aW1lXCIsXCJhcmdzXCI6XCJ7XFxcInN0YXJ0X3llYXJcXFwiOlxcXCIyMDIzXFxcIixcXFwic3RhcnRfbW9udGhcXFwiOlxcXCIyMDIzLTFcXFwiLFxcXCJlbmRfeWVhclxcXCI6XFxcIjIwMjNcXFwiLFxcXCJlbmRfbW9udGhcXFwiOlxcXCIyMDIzLTEyXFxcIixcXFwic3RhcnRfZGF5XFxcIjpcXFwiMjAyMy0xLTFcXFwiLFxcXCJlbmRfZGF5XFxcIjpcXFwiMjAyMy0xMi0zMVxcXCJ9XCJ9IiwicmVjZW50X3Bvc3RzOjAiOiJ7XCJuYW1lXCI6XCJyZWNlbnRfcG9zdHNcIixcImFyZ3NcIjpcIlwifSJ9"
+    #Filters add your filters above
